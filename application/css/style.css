@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  html,
+  body {
+    height: 100%;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 85%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inputOutputContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 75%;
+  }
+  
+  #input,
+  #output {
+    flex: 1;
+    width: 48%;
+    resize: none;
+    border: 1px solid #ccc;
+    font-size: 25px;
+  }
+  
+
+  
